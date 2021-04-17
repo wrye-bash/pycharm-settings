@@ -1,0 +1,27 @@
+# Ignore everything, then allow specific files/folders
+*
+
+# The git files themselves of course
+!.gitattributes
+!.gitignore
+
+# License and readme
+!LICENSE.md
+!README.md
+
+# Folders from PyCharm we want to include
+!codeStyles/
+!codeStyles/*
+!inspectionProfiles/
+!inspectionProfiles/*
+!runConfigurations/
+!runConfigurations/*
+
+# Files from PyCharm we want to include
+!dict.dic
+!discord.xml
+!encodings.xml
+!misc.xml
+!modules.xml
+!vcs.xml
+!wrye-bash.iml
